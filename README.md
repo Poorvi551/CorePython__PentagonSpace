@@ -9,3 +9,6 @@ Compilation: Compilation is a proess of converting a program into a high level l
 
 Interpretation: Interpretation is a process of converting a program into a high level language to machine level language where the code is executed line by line.
 
+* Python program is a line by line execution *
+
+  
