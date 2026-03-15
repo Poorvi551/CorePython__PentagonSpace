@@ -25,7 +25,7 @@ Interpretation: Interpretation is a process of converting a program into a high 
 
   * Object Orientation
 
-    Object - is a real world Entity/Instance of class.
+    Object - is a real world Entity / Instance of class.
 
     Orientation -
 
@@ -88,7 +88,7 @@ Interpretation: Interpretation is a process of converting a program into a high 
         #  This program throws an error because the constructor is not initialized.
   ____________________________________________________________________________________________
 
-* The constructor/ Special method/ Init method :-
+* The constructor / Special method / Init method :-
 
   ___________________________________________________________________________________________
   Syntax :-
@@ -101,20 +101,53 @@ Interpretation: Interpretation is a process of converting a program into a high 
 
     _________________________________________________________________________________________
 
-        class Student:              # creating object
+        class Student:
             def __init__(self):
-                name="Ram"
-                usn="4fg67897"
-                age=19
-            def study():            # creation of method
-            print("Ram is good in studying")
-        s1=Student()
-        print(s1.name)
-        print(s1.usn)
-        print(s1.age)
-        s1.study()
+                self.name="Poorvi"
+                self.age=21
+                self.usn="4SH22IS050"
+            def study(self):
+                print("Poorvi is studying")
+            def walk(self):
+                print("Poorvi is walking")
+            def sleep(self):
+                print("Poorvi is sleeping")
+            def eat(self):
+                print("Poorvi is eating")
+       s1=Student()
+       print(s1.name)
+       print(s1.age)
+       print(s1.usn)
+       s1.study()
+       s1.walk()
+       s1.sleep()
+       s1.eat()
         
-    
         #  This program executes successfully because the constructor is initialized.
   ____________________________________________________________________________________________
+  Source code File - student.py
+
+  * Output :-
+  ___________________________________________________________________________________________
+
+      C:\Users\poorvinayak\AppData\Local\Microsoft\WindowsApps\python3.12.exe "C:\Users\poorvinayak\OneDrive\Documents\Core python\student.py" 
+      Poorvi
+      21
+      4SH22IS050
+      Poorvi is studying
+      Poorvi is walking
+      Poorvi is sleeping
+      Poorvi is eating
+
+      Process finished with exit code 0
+
+_________________________________________________________________________________________________________
+
+
+
+
+
+
+
+    
     
