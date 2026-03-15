@@ -34,4 +34,9 @@ Interpretation: Interpretation is a process of converting a program into a high 
                   | Perspective
     
                   | Alignment
-  
+
+* 3 Steps:
+
+  1. Identify
+  2.  Define
+  3.   Classify
