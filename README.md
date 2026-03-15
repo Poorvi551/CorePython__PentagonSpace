@@ -27,7 +27,11 @@ Interpretation: Interpretation is a process of converting a program into a high 
 
     Object - is a real world Entity/Instance of class.
 
+    Orientation -
+
                   | Point of view
-    Orientation --| Perspective
+    
+                  | Perspective
+    
                   | Alignment
   
