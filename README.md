@@ -11,4 +11,23 @@ Interpretation: Interpretation is a process of converting a program into a high 
 
 * Python program is a line by line execution *
 
+  Python is a 3 dimensional model:
+
+                            OOPS
+                             |
+                             |
+                       Python Supports
+                           /   \
+                          /     \
+                Functions         Scripting
+
+  _______________________________________________________
+
+  * Object Orientation
+
+    Object - is a real world Entity/Instance of class.
+
+                  | Point of view
+    Orientation --| Perspective
+                  | Alignment
   
