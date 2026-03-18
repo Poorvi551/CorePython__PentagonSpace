@@ -155,12 +155,48 @@ How the backend works?!
 
 * Organization of RAM :
 
-  1. Code Segment.
-  2. Static Segment.
-  3. Stack Segment.
-  4. Heap Segment.
+  1. Code Segment - stores Program.
+  2. Static Segment - stores static variable.
+  3. Stack Segment - stores local variable.
+  4. Heap Segment - stores object.
 
-Actual Creation of an object
+** Actual Creation of an object:
+
+Source code : heroobj.py
+
+How the backend works?!
+
+* PVM creates a separate block of memory in a heap segment with an address.
+* Then it searches for a constructor once it found the constructor the address will be stored in the self keyword.Later the complete data will be stored in that separate block of memory.
+* The address of an object will be stored in one reference variable and the reference variable will be stored in the stack segment and that is pointing out to the same memory location.
+
+* Adding, Modifying and Deleting the values outside class:
+
+  * Source code - heroineobj.py
+
+* Adding : adding values
+  
+   * syntax - ex: h1.movies="PK"   ( consider heroineobj.py file )
+
+* Modifying : changing existing values
+
+   * syntax - ex: h1.age=34      ( consider heroineobj.py file )
+
+* Deleting : Removing values
+
+   * syntax - ex: del h1.numOfMovies  ( consider heroineobj.py file )
+
+* Printing Address Value of an object :-
+
+   * syntax - ex: print(h1)      ( consider heroineobj.py file )
+
+* Data types and variables:-
+
+  * Variable - Variable is a container that is used to store the values.
+  * Variables are used to identify and access values from the memory.
+
+
+
 
 
 
