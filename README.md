@@ -189,11 +189,39 @@ How the backend works?!
 * Printing Address Value of an object :-
 
    * syntax - ex: print(h1)      ( consider heroineobj.py file )
-
-* Data types and variables:-
+   
+Data types and variables:-
 
   * Variable - Variable is a container that is used to store the values.
-  * Variables are used to identify and access values from the memory.
+  * Variables are used to identify and access values from the memory or RAM.
+
+    * syntax: var = val
+
+       * ex: a = 10
+
+Rules for naming variables :
+
+1. Variable name should start with either letters or underscore.
+2. Variable name should not contain only numbers and should not start with numbers.
+3. Variable name should not contain any special characters except underscore.
+4. Variable name cannot be the keywords.
+5. Variable name cannot contain any spaces. Ex: na me
+6. Varaible name can contain A-Z, a-z and 0-9.Ex: Name123, Name, name
+7. Variables are case sensitive.
+
+   ** NOTE : In python variable are considered as an object.
+   ** NOTE : In python data size is not fixed.
+
+* Conditional Statements :  Statements that check for the conditions and going to exeecute the code.
+
+  1. if -->T, F
+  2. elif -->T, F
+  3. else
+
+* Input Statements :
+
+   Stetements that are used to take input values from user.
+    
 
 
 
