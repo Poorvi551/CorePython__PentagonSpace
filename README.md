@@ -145,6 +145,23 @@ ________________________________________________________________________________
 
 Similar object creation files - heroobj.py
 
+* NOTE : The complete python code is controlled and coordinated by PVM (Python Virtual Machine)
+
+How the backend works?!
+
+* PVM creates a separate block of memory with an address.
+* Then it searches for a constructor once it found the constructor the address will be stored in the self keyword.Later the complete data will be stored in that separate block of memory.
+* The address of an object will be stored in one reference variable and that is pointing out to the same memory location.
+
+* Organization of RAM :
+
+  1. Code Segment.
+  2. Static Segment.
+  3. Stack Segment.
+  4. Heap Segment.
+
+Actual Creation of an object
+
 
 
 
