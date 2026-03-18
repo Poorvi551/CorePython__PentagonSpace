@@ -143,8 +143,7 @@ Interpretation: Interpretation is a process of converting a program into a high 
 
 _________________________________________________________________________________________________________
 
-
-
+Similar object creation files - heroobj.py
 
 
 
