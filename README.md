@@ -224,8 +224,22 @@ Rules for naming variables :
   
    * Ex:
      
-             a = input("Enter a num:")   
+             a = input("Enter a num:")
+             b = input("Enter a num:")  
              print(a)
+             print(b)
+             c = a+b    # concatenates the numebers - join
+             print(c)
+
+To overcome this or to add the values we use - * int(input)
+
+  Source Code files in repo -  >> intinput.py
+
+  Greater than program using input statements and condition statements.
+
+  
+
+  
         
 
      
