@@ -238,7 +238,41 @@ To overcome this or to add the values we use - * int(input)
 * Greater than program using input statements and condition statements.
   
    * Source Code files in repo -  >> intinput.py
+
+* Looping Statements :
+  
+   * They are :
+
+       1. For Loop
+       2. While Loop
+
+  1. For Loop :
+
+      * Syntax
+     _______________________________________________________________________
      
+           for var_name in list_of_elements:
+     _______________________________________________________________________
+
+     Ex : source code - forloop.py
+
+  *  Range() :
+
+    Built in function in python.
+     * They are of three types :
+         1. range(stop)
+         2. range(start,stop)
+         3. range(start,stop,step)
+     
+  3. While Loop :
+
+      * Syntax
+    __________________________________________________________________________
+
+            while condtion:
+    __________________________________________________________________________
+  
+  Ex : source code - .py
   
 
   
