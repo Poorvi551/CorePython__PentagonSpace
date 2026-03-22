@@ -221,6 +221,14 @@ Rules for naming variables :
 * Input Statements :
 
    Stetements that are used to take input values from user.
+  
+   * Ex:
+     
+             a = input("Enter a num:")   
+             print(a)
+        
+
+     
     
 
 
