@@ -272,7 +272,44 @@ To overcome this or to add the values we use - * int(input)
             while condtion:
     __________________________________________________________________________
   
-  Ex : source code - .py
+  Ex : source code - while.py
+
+* Various ways of declaring instance variable :-
+
+ Three ways :
+  1. Inside the constructor  -  using self keyword
+  2. Inside the method    -  using self keyword
+  3. Outside the constructor  -  using referrence variable
+
+* Methods -
+
+  * Method is a behaviour of an object and it will work when it is called.
+
+  * Types of methods(3 types) :-
+      1. Instance method
+             1. No parameter No return Value
+             2. No parameter with return Value
+             3. With parameter No return Value
+             4. With parameter with return Value
+      2. Static method
+      3. Class method
+         
+1. Instance method:
+
+     Syntax:
+     _______________________________________________________________
+
+         def __methodname__(self):
+             _________________
+             _________________
+             [code here]______
+             _________________
+     ________________________________________________________________
+
+     1. No parameter No return Value :
+
+        Ex: source code - 
+    
   
 
   
