@@ -308,8 +308,43 @@ To overcome this or to add the values we use - * int(input)
 
      1. No parameter No return Value :
 
-        Ex: source code - 
-    
+        Ex: source code - calcinopnorv.py
+
+     2. No parameter with return value :
+
+        Ex : source code - calcinopwithrv.py
+        
+     3. With parameter no return value :
+
+        Ex : source code - calciwithpnorv.py
+
+     4. With parameter with return value :
+
+        Ex: source code - calciwithpwithrv.py
+
+2. Static method :
+
+    Syntax:
+   ________________________________________________________
+
+        @static method
+        def methodname():
+           _______________
+           _______________
+   ________________________________________________________
+
+3. Class method :
+
+    Syntax:
+   _________________________________________________________
+
+        @class method
+        def methodname(cls):
+           _______________
+           _______________
+   __________________________________________________________
+
+   
   
 
   
