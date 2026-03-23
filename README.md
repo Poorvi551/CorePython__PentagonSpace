@@ -349,7 +349,9 @@ To overcome this or to add the values we use - * int(input)
 * Method returning multiple values:-
 
    * If we are not declaring a constructor the PVM will declare one default constructor at the backend.
-  
+   * Ex : source code : methodretnmultival.py
+
+* Standard way of declaring a class :
 
   
 
