@@ -353,7 +353,25 @@ To overcome this or to add the values we use - * int(input)
 
 * Standard way of declaring a class :
 
-  Ex: Source code - standardwaystudent.py
+  Ex: Source code - standardwaystudent.py, (Similar ex: Farmer.py)
+
+* Static variable:-
+
+  * Declaration :
+
+     * Static Variables are declared inside the class outside the constructor.
+     * To access static variables we have to use classname.
+
+       * Ex:
+
+             class farmer:
+                 r=2.5
+                 def __init__(self,p,t,r):
+                     _______________
+                     _______________
+
+         Ex: source code - staticfarmer.py
+         
   
 
   
