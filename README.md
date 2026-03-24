@@ -353,6 +353,9 @@ To overcome this or to add the values we use - * int(input)
 
 * Standard way of declaring a class :
 
+  Ex: Source code - standardwaystudent.py
+  
+
   
 
   
