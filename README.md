@@ -371,6 +371,10 @@ To overcome this or to add the values we use - * int(input)
                      _______________
 
          Ex: source code - staticfarmer.py
+
+* Actual Parameter and Formal Parameter.
+
+  
          
   
 
