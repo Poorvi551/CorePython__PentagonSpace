@@ -388,6 +388,12 @@ To overcome this or to add the values we use - * int(input)
 * Keywords and arguments :
 
   Ex : Source code :- parameters.py
+
+* High cohension and Low cohension:-
+
+  * High Cohension - If the properties and behaviour are related to the objects is called High cohension.
+ 
+  * Low Cohension - If the properties and behaviour is not related to the objects is called High cohension.
          
   
 
