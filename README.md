@@ -374,6 +374,19 @@ To overcome this or to add the values we use - * int(input)
 
 * Actual Parameter and Formal Parameter.
 
+   * Ex Source code : demoparameters.py
+
+               class Demo:
+                   def add(self,a,b):  # a, b here are Formal Parameter
+                       c=a+b
+                       print(c)
+               d1=Demo()
+               x=10
+               y=20
+               d1.add(x,y)            # here x, y are Actual Parameter
+
+* Keywords and arguments
+
   
          
   
