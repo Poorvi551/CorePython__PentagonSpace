@@ -385,9 +385,9 @@ To overcome this or to add the values we use - * int(input)
                y=20
                d1.add(x,y)            # here x, y are Actual Parameter
 
-* Keywords and arguments
+* Keywords and arguments :
 
-  
+  Ex : Source code :- parameters.py
          
   
 
