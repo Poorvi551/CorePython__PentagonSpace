@@ -392,8 +392,49 @@ To overcome this or to add the values we use - * int(input)
 * High cohension and Low cohension:-
 
   * High Cohension - If the properties and behaviour are related to the objects is called High cohension.
+  * Ex: source code -
  
   * Low Cohension - If the properties and behaviour is not related to the objects is called High cohension.
+  * Ex: source code -
+    
+  * In python main block will start from first line and it will end at last line and this main block is called suite.
+
+
+Strings
+
+ * Strings - String is a collection or sequence of characters.
+ * Major feature of string - Immutable.
+ * Strings are stored in global dictionary in the backend.
+
+ * Indexing:
+
+ * They are of two types :
+    1. Positive indexing (moves from left -> right)
+    2. Negative indexing (moves from right -> left)
+
+ * Operations :
+
+ * Operations are of 4 types:
+    1. Arithmetic operators - (+,-,*,/,**,//)
+    2. Logical operators - (and, or, not)
+    3. Relational or comparison operator - (==,!=, >, <, >=, <=)
+    4. Assignment operator - (=, +=, -=, *=, /=)
+
+  * String slicing:
+
+  * Slicing - Slicing extracts multiple characters.
+  * Syntax:
+      Ex:
+
+        str="RajaRamMohanRoy"
+        print(str.slice[2:6])  // prints str from index 2 to 6-1 =5 index
+
+   Ex: Source code : slice.py
+
+   * Rules :-
+    
+
+  
          
   
 
