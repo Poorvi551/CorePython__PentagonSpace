@@ -1,0 +1,11 @@
+l=[10,20,["TATA","Kia"],30]
+print(len(l))
+l1=l.copy()
+print(l)
+print(l1)
+l[2][1]="BMW"
+print(l)
+print(l1)
+l[3]=300
+print(l)
+print(l1)
