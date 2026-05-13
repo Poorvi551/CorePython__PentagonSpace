@@ -1,0 +1,6 @@
+alpha=input("Enter a alphabet:")
+res1=ord(alpha)
+print(res1)
+num=int(input("Enter a number:"))
+res2=chr(num)
+print(res2)
