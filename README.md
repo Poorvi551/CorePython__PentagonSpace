@@ -174,19 +174,19 @@ ________________________________________________________________________________
 
 *Source code - heroineobj.py*
 
-**Adding** : adding values
+ * **Adding** : adding values
   
-  *syntax* - ex: h1.movies="PK"   ( consider heroineobj.py file )
+   * *syntax* - ex: h1.movies="PK"   ( consider heroineobj.py file )
 
-**Modifying** : changing existing values
+ *  **Modifying** : changing existing values
 
-  *syntax* - ex: h1.age=34      ( consider heroineobj.py file )
+   * *syntax* - ex: h1.age=34      ( consider heroineobj.py file )
 
-**Deleting** : Removing values
+ *  **Deleting** : Removing values
 
-   *syntax* - ex: del h1.numOfMovies  ( consider heroineobj.py file )
+   * *syntax* - ex: del h1.numOfMovies  ( consider heroineobj.py file )
 
-* Printing Address Value of an object :-
+ * Printing Address Value of an object :-
 
    *syntax* - ex: print(h1)      ( consider heroineobj.py file )
 
@@ -287,7 +287,8 @@ To overcome this or to add the values we use - * int(input)
 
   * Method is a behaviour of an object and it will work when it is called.
 
-  * Types of methods(3 types) :-
+  *  **Types of methods(3 types) :-**
+    
       1. Instance method
              1. No parameter No return Value
              2. No parameter with return Value
@@ -295,8 +296,9 @@ To overcome this or to add the values we use - * int(input)
              4. With parameter with return Value
       2. Static method
       3. Class method
-         
-1. Instance method:
+
+**1. Instance method:**
+
 
      Syntax:
      _______________________________________________________________
@@ -308,25 +310,25 @@ To overcome this or to add the values we use - * int(input)
              _________________
      ________________________________________________________________
 
-     1. No parameter No return Value :
+   1. No parameter No return Value :
 
         Ex: source code - calcinopnorv.py
 
-     2. No parameter with return value :
+   2. No parameter with return value :
 
         Ex : source code - calcinopwithrv.py
         
-     3. With parameter no return value :
+   3. With parameter no return value :
 
         Ex : source code - calciwithpnorv.py
 
-     4. With parameter with return value :
+  4. With parameter with return value :
 
         Ex: source code - calciwithpwithrv.py
 
-2. Static method :
+**2. Static method :**
 
-    Syntax:
+  Syntax:
    ________________________________________________________
 
         @static method
@@ -335,9 +337,9 @@ To overcome this or to add the values we use - * int(input)
            _______________
    ________________________________________________________
 
-3. Class method :
+**3. Class method :**
 
-    Syntax:
+  Syntax:
    _________________________________________________________
 
         @class method
@@ -346,20 +348,20 @@ To overcome this or to add the values we use - * int(input)
            _______________
    __________________________________________________________
 
-  Ex : source code : carmethod.py
+  *Ex : source code : carmethod.py*
 
-* Method returning multiple values:-
+* **Method returning multiple values:-**
 
    * If we are not declaring a constructor the PVM will declare one default constructor at the backend.
    * Ex : source code : methodretnmultival.py
 
-* Standard way of declaring a class :
+* **Standard way of declaring a class :**
 
   Ex: Source code - standardwaystudent.py, (Similar ex: Farmer.py)
 
-* Static variable:-
+* **Static variable:-**
 
-  * Declaration :
+  * **Declaration :**
 
      * Static Variables are declared inside the class outside the constructor.
      * To access static variables we have to use classname.
@@ -374,9 +376,9 @@ To overcome this or to add the values we use - * int(input)
 
          Ex: source code - staticfarmer.py
 
-* Actual Parameter and Formal Parameter.
+#### * **Actual Parameter and Formal Parameter.**
 
-   * Ex Source code : demoparameters.py
+   * *Ex Source code : demoparameters.py*
 
                class Demo:
                    def add(self,a,b):  # a, b here are Formal Parameter
@@ -387,11 +389,11 @@ To overcome this or to add the values we use - * int(input)
                y=20
                d1.add(x,y)            # here x, y are Actual Parameter
 
-* Keywords and arguments :
+#### * **Keywords and arguments :**
 
   Ex : Source code :- parameters.py
 
-* High cohension and Low cohension:-
+#### * **High cohension and Low cohension:-**
 
   * High Cohension - If the properties and behaviour are related to the objects is called High cohension.
   * Ex: source code -
@@ -402,19 +404,19 @@ To overcome this or to add the values we use - * int(input)
   * In python main block will start from first line and it will end at last line and this main block is called suite.
 
 
-Strings
+### Strings
 
  * Strings - String is a collection or sequence of characters.
  * Major feature of string - Immutable.
  * Strings are stored in global dictionary in the backend.
 
- * Indexing:
+#### * **Indexing:**
 
  * They are of two types :
     1. Positive indexing (moves from left -> right)
     2. Negative indexing (moves from right -> left)
 
- * Operations :
+ #### * **Operations :**
 
  * Operations are of 4 types:
     1. Arithmetic operators - (+,-,*,/,**,//)
@@ -422,19 +424,19 @@ Strings
     3. Relational or comparison operator - (==,!=, >, <, >=, <=)
     4. Assignment operator - (=, +=, -=, *=, /=)
 
-  * String slicing:
+ #### * **String slicing:**
 
-  * Slicing - Slicing extracts multiple characters.
+  * ***Slicing*** - Slicing extracts multiple characters.
     
-  * Syntax:
+  * *Syntax:*
       Ex:
 
         str="RajaRamMohanRoy"
         print(str.slice[2:6])  // prints str from index 2 to 6-1 =5 index
 
-   Ex: Source code : slice.py
+   *Ex: Source code : slice.py*
 
-   * Rules for slicing :-
+   * **Rules for slicing :-**
 
      1. Irrespective of starting and ending values check for the step value.
           * If step value is :
@@ -445,13 +447,13 @@ Strings
          * ending value -> no output
      3. If the step value is 0 -> throws an error
 
-  * Strip():
+ ### * **Strip():**
 
   * Strip -  Removes the whitespaces in the beginning and ending of the string.
   * lstrip() -  Removes the whitespaces in the beginning.
   * rstrip() - Removes the whitespaces in the ending.
 
-** Reverse a string program.
+#### ** ***Reverse a string program.***
 
     def reverse_string(s):
         rev=''
@@ -461,7 +463,7 @@ Strings
     s=input("Enter a string:")
     print(reverse_string(s))
 
-** Reverse a sentence using split method:
+#### ** ***Reverse a sentence using split method:***
 
     str = "Ahalya is writing"
     str1=str.split()
@@ -472,11 +474,11 @@ Strings
         rev=i+""+rev
         print(rev)
 
-* Split() -
+### * **Split() -**
 
 * Split - splits the sentence once it finds the whitespace and store it in the form of list.
 
-** Palindrome program:
+#### ** ***Palindrome program:***
 
     def palindrome(str):
         rev=""
@@ -488,7 +490,7 @@ Strings
         else:
             print("String is not a palindrome")
 
-* Lowercase, Uppercase and Swapcase
+### * **Lowercase, Uppercase and Swapcase:-**
     
     
 
