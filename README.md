@@ -495,7 +495,10 @@ To overcome this or to add the values we use - * int(input)
  * .lower() - converts the  string to lowercase
  * .upper() - converts the  string to uppercase
  * .swapcase() - converts the string to lowercase or uppercase or mixed case based on the input.
- *  Ex - Source code - str.py
+ *  *Ex - Source code - stringcase.py*
+
+** ***Finding the substring from the given string:-***
+ *  
     
     
 
