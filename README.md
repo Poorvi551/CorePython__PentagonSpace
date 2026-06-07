@@ -423,6 +423,7 @@ Strings
   * String slicing:
 
   * Slicing - Slicing extracts multiple characters.
+    
   * Syntax:
       Ex:
 
@@ -431,7 +432,62 @@ Strings
 
    Ex: Source code : slice.py
 
-   * Rules :-
+   * Rules for slicing :-
+
+     1. Irrespective of starting and ending values check for the step value.
+          * If step value is :
+              * +ve -> positive indexing -> left to right.
+              * -ve -> negative indexing -> right to left
+     2. If initially we found the :
+         * starting value -> then we will get the output
+         * ending value -> no output
+     3. If the step value is 0 -> throws an error
+
+  * Strip():
+
+  * Strip -  Removes the whitespaces in the beginning and ending of the string.
+  * lstrip() -  Removes the whitespaces in the beginning.
+  * rstrip() - Removes the whitespaces in the ending.
+
+** Reverse a string program.
+
+    def reverse_string(s):
+        rev=''
+        for i in s:
+            rev=i+rev
+        return rev
+    s=input("Enter a string:")
+    print(reverse_string(s))
+
+** Reverse a sentence using split method:
+
+    str = "Ahalya is writing"
+    str1=str.split()
+    print(str)
+    print(str1)
+    rev=''
+    for i in str:
+        rev=i+""+rev
+        print(rev)
+
+* Split() -
+
+* Split - splits the sentence once it finds the whitespace and store it in the form of list.
+
+** Palindrome program:
+
+    def palindrome(str):
+        rev=""
+        for i in str:
+            rev=i+rev
+            print(rev)
+        if str==rev:
+            print("String is palindrome")
+        else:
+            print("String is not a palindrome")
+
+* Lowercase, Uppercase and Swapcase
+    
     
 
   
