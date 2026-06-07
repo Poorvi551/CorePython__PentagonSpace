@@ -74,7 +74,7 @@ __________________________________________________________________
   ______________________________________________________________
 
 
-  * Object creation Program :-
+#### *Object creation Program* :-
 
     _________________________________________________________________________________________
 
@@ -88,7 +88,7 @@ __________________________________________________________________
         #  This program throws an error because the constructor is not initialized.
   ____________________________________________________________________________________________
 
-* The constructor / Special method / Init method :-
+#### *The constructor / Special method / Init method* :-
 
   ___________________________________________________________________________________________
   Syntax :-
@@ -97,7 +97,7 @@ __________________________________________________________________
 
   __________________________________________________________________________________________
 
-* Object creation Program :-
+#### *Object creation Program* :-
 
     _________________________________________________________________________________________
 
@@ -125,7 +125,7 @@ __________________________________________________________________
         
         #  This program executes successfully because the constructor is initialized.
   ____________________________________________________________________________________________
-  Source code File - student.py
+  *Source code File - student.py*
 
   * Output :-
   ___________________________________________________________________________________________
@@ -143,63 +143,63 @@ __________________________________________________________________
 
 _________________________________________________________________________________________________________
 
-Similar object creation files - heroobj.py
+*Similar object creation files - heroobj.py*
 
-* NOTE : The complete python code is controlled and coordinated by PVM (Python Virtual Machine)
+***NOTE : The complete python code is controlled and coordinated by PVM (Python Virtual Machine)***
 
-How the backend works?!
+*How the backend works?!*
 
 * PVM creates a separate block of memory with an address.
 * Then it searches for a constructor once it found the constructor the address will be stored in the self keyword.Later the complete data will be stored in that separate block of memory.
 * The address of an object will be stored in one reference variable and that is pointing out to the same memory location.
 
-* Organization of RAM :
+*Organization of RAM :*
 
   1. Code Segment - stores Program.
   2. Static Segment - stores static variable.
   3. Stack Segment - stores local variable.
   4. Heap Segment - stores object.
 
-** Actual Creation of an object:
+**Actual Creation of an object:**
 
-Source code : heroobj.py
+*Source code : heroobj.py*
 
-How the backend works?!
+*How the backend works?!*
 
 * PVM creates a separate block of memory in a heap segment with an address.
 * Then it searches for a constructor once it found the constructor the address will be stored in the self keyword.Later the complete data will be stored in that separate block of memory.
 * The address of an object will be stored in one reference variable and the reference variable will be stored in the stack segment and that is pointing out to the same memory location.
 
-* Adding, Modifying and Deleting the values outside class:
+### **Adding, Modifying and Deleting the values outside class:**
 
-  * Source code - heroineobj.py
+*Source code - heroineobj.py*
 
-* Adding : adding values
+**Adding** : adding values
   
-   * syntax - ex: h1.movies="PK"   ( consider heroineobj.py file )
+  *syntax* - ex: h1.movies="PK"   ( consider heroineobj.py file )
 
-* Modifying : changing existing values
+**Modifying** : changing existing values
 
-   * syntax - ex: h1.age=34      ( consider heroineobj.py file )
+  *syntax* - ex: h1.age=34      ( consider heroineobj.py file )
 
-* Deleting : Removing values
+**Deleting** : Removing values
 
-   * syntax - ex: del h1.numOfMovies  ( consider heroineobj.py file )
+   *syntax* - ex: del h1.numOfMovies  ( consider heroineobj.py file )
 
 * Printing Address Value of an object :-
 
-   * syntax - ex: print(h1)      ( consider heroineobj.py file )
-   
-Data types and variables:-
+   *syntax* - ex: print(h1)      ( consider heroineobj.py file )
 
-  * Variable - Variable is a container that is used to store the values.
+## **Data types and variables:-**
+
+  **Variable** - Variable is a container that is used to store the values.
   * Variables are used to identify and access values from the memory or RAM.
 
-    * syntax: var = val
+    *syntax:* var = val
 
        * ex: a = 10
 
-Rules for naming variables :
+### **Rules for naming variables :**
 
 1. Variable name should start with either letters or underscore.
 2. Variable name should not contain only numbers and should not start with numbers.
@@ -209,18 +209,20 @@ Rules for naming variables :
 6. Varaible name can contain A-Z, a-z and 0-9.Ex: Name123, Name, name
 7. Variables are case sensitive.
 
-   ** NOTE : In python variable are considered as an object.
-   ** NOTE : In python data size is not fixed.
+   **NOTE : In python variable are considered as an object.**
+   **NOTE : In python data size is not fixed.**
 
-* Conditional Statements :  Statements that check for the conditions and going to exeecute the code.
+### **Conditional Statements :**  
+
+  * Statements that check for the conditions and going to exeecute the code.
 
   1. if -->T, F
   2. elif -->T, F
   3. else
 
-* Input Statements :
+**Input Statements :**
 
-   Stetements that are used to take input values from user.
+  * Statements that are used to take input values from user.
   
    * Ex:
      
