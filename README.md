@@ -3,11 +3,11 @@ Learnings of Core Python at Pentagon Space with Shashank Sir.
 
 __________________________________________________________________
 
-Python : Python is a high level interpreted programming lannguage. 
+**Python** : Python is a high level interpreted programming lannguage. 
 
-Compilation: Compilation is a proess of converting a program into a high level language to machine level language where the code is executed in a single shot.
+**Compilation**: Compilation is a proess of converting a program into a high level language to machine level language where the code is executed in a single shot.
 
-Interpretation: Interpretation is a process of converting a program into a high level language to machine level language where the code is executed line by line.
+**Interpretation**: Interpretation is a process of converting a program into a high level language to machine level language where the code is executed line by line.
 
 * Python program is a line by line execution *
 
@@ -23,11 +23,11 @@ Interpretation: Interpretation is a process of converting a program into a high 
 
   _______________________________________________________
 
-  * Object Orientation
+  ##**Object Orientation**
 
-    Object - is a real world Entity / Instance of class.
+    **Object** - is a real world Entity / Instance of class.
 
-    Orientation -
+    ***Orientation*** -
 
                   | Point of view
     
@@ -35,7 +35,7 @@ Interpretation: Interpretation is a process of converting a program into a high 
     
                   | Alignment
 
-* 3 Steps:
+####**3 Steps**:
 
   1. Identify
   2.  Define
@@ -57,7 +57,7 @@ Interpretation: Interpretation is a process of converting a program into a high 
               age         eat
   ______________________________________________
 
-* Pycharm Installation
+##***Pycharm Installation***
 
   _______________________________________________________________________________________________________________________________________
 
