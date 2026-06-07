@@ -491,6 +491,11 @@ To overcome this or to add the values we use - * int(input)
             print("String is not a palindrome")
 
 ### * **Lowercase, Uppercase and Swapcase:-**
+
+ * .lower() - converts the  string to lowercase
+ * .upper() - converts the  string to uppercase
+ * .swapcase() - converts the string to lowercase or uppercase or mixed case based on the input.
+ *  Ex - Source code - str.py
     
     
 
