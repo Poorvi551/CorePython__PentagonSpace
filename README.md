@@ -512,6 +512,10 @@ To overcome this or to add the values we use - * int(input)
        print(str.rfind("you"))
        print(str.find("pentagon"))
        print(str.index("pentagon"))
+
+#### * Check alphabets,numbers, or other special characters present in string. 
+
+* *Ex :- Source code -  
     
     
 
