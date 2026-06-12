@@ -241,16 +241,16 @@ To overcome this or to add the values we use - * int(input)
   
    * Source Code files in repo -  >> intinput.py
 
-* Looping Statements :
+## * **Looping Statements :**
   
    * They are :
 
        1. For Loop
        2. While Loop
 
-  1. For Loop :
+### **1. For Loop :**
 
-      * Syntax
+  * Syntax
      _______________________________________________________________________
      
            for var_name in list_of_elements:
@@ -258,17 +258,17 @@ To overcome this or to add the values we use - * int(input)
 
      Ex : source code - forloop.py
 
-  *  Range() :
+###  *  **Range() :**
 
-    Built in function in python.
+  Built in function in python.
      * They are of three types :
          1. range(stop)
          2. range(start,stop)
          3. range(start,stop,step)
      
-  3. While Loop :
+###  **3. While Loop :**
 
-      * Syntax
+ * Syntax
     __________________________________________________________________________
 
             while condtion:
@@ -283,7 +283,7 @@ To overcome this or to add the values we use - * int(input)
   2. Inside the method    -  using self keyword
   3. Outside the constructor  -  using referrence variable
 
-* Methods -
+### * **Methods -**
 
   * Method is a behaviour of an object and it will work when it is called.
 
@@ -403,8 +403,7 @@ To overcome this or to add the values we use - * int(input)
     
   * In python main block will start from first line and it will end at last line and this main block is called suite.
 
-
-### Strings
+## Strings
 
  * Strings - String is a collection or sequence of characters.
  * Major feature of string - Immutable.
@@ -577,7 +576,7 @@ To overcome this or to add the values we use - * int(input)
   
 * *Ex: Source code - formatstring*
 
-# Functions
+## Functions
 
 ### * **Funtion :-** A Function is a set or block of code which performs a specific task when it is called.
 
@@ -669,7 +668,17 @@ To overcome this or to add the values we use - * int(input)
         y=36
         res=add(x,y)
         print(res)
-        
+
+   ### * **Invoking Functions through variable :-**
+
+  ### ***NOTE :- The address of the function is stored i the function name.***
+
+  * *Ex- Source code - invokefunctions.py*
+
+  ### * **Global variable :-**
+
+  * *Ex- Source code - globalvar.py*
+  * * *Ex- Source code - globalvariable.py*
     
 
   
