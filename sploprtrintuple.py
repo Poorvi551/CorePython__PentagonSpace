@@ -1,0 +1,5 @@
+s=(10,20,30,40)
+print(20 in s)
+print(50 in s)
+print(60 not in s)
+print(10 not in s)

@@ -1,0 +1,12 @@
+str1="shannu"
+str2="sheela"
+str3="Tarun"
+str4="shannu"
+str5="tarun"
+str6="priya"
+print(id(str1))
+print(id(str4))
+print(id(str3))
+print(id(str5))
+print(id(str6))
+print(id(str2))
