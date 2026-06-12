@@ -1,0 +1,18 @@
+ptr=open("filehandling.txt","r")
+pos1=ptr.tell()
+print(pos1)
+res1=ptr.read(3)
+print(res1)
+pos2=ptr.tell()
+print(pos2)
+ptr.seek(2)
+pos3=ptr.tell()
+print(pos3)
+ptr.seek(0)                  # moves cursor position from one position to another
+pos4=ptr.tell()
+print(pos4)
+res2=ptr.read(7)
+print(res2)
+pos5=ptr.tell()
+print(pos5)              # 8 because it considers \n also so instead of 7 it is giving output as 8
+ptr.close()
