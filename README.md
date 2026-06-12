@@ -624,9 +624,16 @@ To overcome this or to add the values we use - * int(input)
   3. With parameter no return value.
   4. With parameter with return value.
 
-  1. No parameter no return value :-
+ ### **1. No parameter no return value :-**
 
-  * *Ex- Source code - nopnorv.py* 
+  * *Ex- Source code - nopnorv.py*
+
+        def add():
+            a=10
+            b=20
+            c=a+b
+            print(c)
+        add()
 
     
 
