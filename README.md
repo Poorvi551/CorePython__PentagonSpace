@@ -513,9 +513,20 @@ To overcome this or to add the values we use - * int(input)
        print(str.find("pentagon"))
        print(str.index("pentagon"))
 
-#### * Check alphabets,numbers, or other special characters present in string. 
+### * Check alphabets,numbers, or other special characters present in string. 
 
-* *Ex :- Source code -  
+* *Ex :- Source code -  checkchardigit.py
+
+* **.isalpha** - checks if the string contains only alphabets.
+* **.isdigit** - checks if the string contains only digits or numbers.
+* **.isalnum** - checks if the string contains bothe alphabets and numbers.
+
+### * Packing and unpacking :-
+
+* **Packing** - Storing the sequence of elements in a single variable is called packing.
+* **unpacking** - Storing the sequence of elements in the separate variable is called unpacking.
+
+* Ex :- Source code -
     
     
 
