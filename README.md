@@ -635,6 +635,41 @@ To overcome this or to add the values we use - * int(input)
             print(c)
         add()
 
+ ### **2. No parameter with return value :-** 
+
+ * *Ex- Source code - nopwithrv.py*
+   
+       def add():
+            a=10
+            b=20
+            c=a+b
+            return c
+        res=add()
+        print(res)
+   
+### **3. With parameter no return value :-**
+
+* *Ex- Source code - withpnorv.py*
+
+       def add(a,b):
+            c=a+b
+            print c
+        x=17
+        y=36
+        add(x,y)
+  
+ ### **4. With parameter with return value :-**
+
+ * *Ex- Source code - withpwithrv.py*
+
+       def add(a,b):
+            c=a+b
+            return c
+        x=17
+        y=36
+        res=add(x,y)
+        print(res)
+        
     
 
   
