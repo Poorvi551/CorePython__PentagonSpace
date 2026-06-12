@@ -677,8 +677,26 @@ To overcome this or to add the values we use - * int(input)
 
   ### * **Global variable :-**
 
-  * *Ex- Source code - globalvar.py*
   * * *Ex- Source code - globalvariable.py*
+   
+  ### * **Accessing global variable with or without using global :-**
+
+  * *Ex- Source code - globalvar.py*
+
+## * **Nested Function :-**
+
+### ***NOTE :- In a nested function we have to call inner function inside the outer function outside the inner function.***
+
+* *Ex- Source code - nestedfun.py*
+
+      def outer():
+          print("Inside outer")
+          def inner():
+              print("Inside inner")
+          inner()
+      outer()
+
+
     
 
   
