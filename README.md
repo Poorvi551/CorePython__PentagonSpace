@@ -746,11 +746,11 @@ B - Built in Scope
 <table>
   <tr>
     <td>Filtering</td>
-    <td>Output<Input</td>
+    <td>Output less than Input</td>
   </tr>
   <tr>
     <td>Mapping</td>
-    <td>Output=Input with different values</td>
+    <td>Output is equal to Input with different values</td>
   </tr>
 </table>
 
