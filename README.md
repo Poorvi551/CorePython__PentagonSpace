@@ -564,6 +564,60 @@ To overcome this or to add the values we use - * int(input)
       print(str.endswith("Shaking"))   #Falsenterning
 
 * Replace() - replaces a new string instead of old string which you want to replace.
+
+### * **String Interning:-**
+
+* *Ex :- source code - stringInterning.py*
+
+* String Interning : It is an internal memory optimization technique in Python. Checks for the same element, if same element present multiple times then assigns the same memory address to that particular element. 
+
+### * **Formatting String :-**
+
+* Format string - String formatting refers to assign value taken from the user to print anything.
+  
+* *Ex: Source code - formatstring*
+
+# Functions
+
+### * **Funtion :-** A Function is a set or block of code which performs a specific task when it is called.
+
+* Syntax :-
+
+      def fun_name()
+          ______________
+          ______________
+      fun_name()          # calling function.
+
+* ***NOTE - Function will not work unless you call it.***
+
+* Difference between method and function
+
+<table>
+  <tr>
+    <center>
+      <td>METHODS</td>
+      <td>FUNCTIONS</td>
+    </center>
+  </tr>
+  <tr>
+    <td>Declared inside the class.</td>
+    <td>Declared directly without class.</td>
+  </tr>
+  <tr>
+    <td>Use self keyword.</td>
+    <td>No need of self keyword.</td>
+  </tr>
+  <tr>
+    <td>To call method we require referrence variable.</td>
+    <td>In functions no need of referrence variable.</td>
+  </tr>
+  <tr>
+    <td>Dependent of class.</td>
+    <td>Independent of lass.</td>
+  </tr>
+  
+</table>
+
     
 
   
