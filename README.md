@@ -615,8 +615,18 @@ To overcome this or to add the values we use - * int(input)
     <td>Dependent of class.</td>
     <td>Independent of lass.</td>
   </tr>
-  
 </table>
+
+### * **Types of functions :-**
+
+  1. No parameter no return value.
+  2. No parameter with return value.
+  3. With parameter no return value.
+  4. With parameter with return value.
+
+  1. No parameter no return value :-
+
+  * *Ex- Source code - nopnorv.py* 
 
     
 
