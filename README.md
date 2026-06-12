@@ -824,7 +824,7 @@ B - Built in Scope
   </tr>
   <tr>
     <td>It returns only single value using 'return keyword'</td>
-    <td>it returns multiple values using 'yield keyword'</td>
+    <td>It returns multiple values using 'yield keyword'</td>
   </tr>
   <tr>
     <td>Store entire data in a memory.</td>
