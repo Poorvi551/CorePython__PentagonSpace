@@ -540,7 +540,23 @@ To overcome this or to add the values we use - * int(input)
 
 * *Ex :- Source code - ascii.py*
 
-      alpha
+      alpha=input("Enter a alphabet:")
+      res1=ord(alpha)            # prints number of alphabet
+      print(res1)
+      num=int(input("Enter a number:"))
+      res2=chr(num)             # prints chr of alphabet
+      print(res2)
+
+  * ord() - prints the  ASCII value of the alphabet.
+  * chr() - prints the  ASCII value of the number.
+
+### * **Replacing a string :-**
+
+* *Ex :- source code - replacestring.py*
+
+       
+
+* Replace() - replaces a new string instead of old string which you want to replace.
     
 
   
