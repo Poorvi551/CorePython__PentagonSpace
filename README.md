@@ -526,8 +526,21 @@ To overcome this or to add the values we use - * int(input)
 * **Packing** - Storing the sequence of elements in a single variable is called packing.
 * **unpacking** - Storing the sequence of elements in the separate variable is called unpacking.
 
-* Ex :- Source code -
-    
+* Ex :- Source code - packunpack.py
+
+### * **ASCII Values :-**
+
+* ASCII Value - ASCII (American Standard Code for Information Interchange)
+
+*  *A - 65* , *Z - 90*
+*  *a - 97* , *z - 122*
+*  *space (' ') - 32*
+
+** Check ASCII Values:-
+
+* *Ex :- Source code - ascii.py*
+
+      alpha
     
 
   
