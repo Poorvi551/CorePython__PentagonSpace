@@ -696,7 +696,156 @@ To overcome this or to add the values we use - * int(input)
           inner()
       outer()
 
+### * **Higher order function and first class function:-**
 
+* The function which accepts another function as parameter is called as higher order function.
+* Other than higher order function all are first class function.
+
+* *Ex :- Source code - highorderfun.py*
+
+### * **Non-Local variables:-**
+
+* In a nested function the variable present in the most inner function is called as local variable remaining all the variable will act as non local variable.
+* *Ex:- Source code - nonlocalvar.py*
+
+### * **LEGB Rule:-**
+
+L - Local Scope
+E - Enclosed Scope
+G - Global Scope
+B - Built in Scope
+
+### * **Lambda Function :-**
+
+* It is a anonymous function with easy syntax for small operations.
+* Syntax:
+
+       lambda arguments : expresssion
+  
+* *Ex:- Source code - lambda.py*
+
+### * Modules :-*
+
+* Module is a pyton file where we can import code from one module to another module and we can use it.
+* *Ex :- Source code(folder) - module ,modul2
+
+* Importing both p1.py, p2.py file in new1.py file.
+
+**  ***Collect 5 integer values from the user and store it in a list or arr.***
+
+    l=[]
+    i=0
+    while i<=4:
+        num=int(input("Enter Numbers:")
+        l.insert(i,num)
+        i+=1
+    print(l)
+
+### * **Filtering and Mapping:-**
+
+<table>
+  <tr>
+    <td>Filtering</td>
+    <td>Output<Input</td>
+  </tr>
+  <tr>
+    <td>Mapping</td>
+    <td>Output=Input with different values</td>
+  </tr>
+</table>
+
+### * **Filtering :-**
+
+* It is a built in function in python which is used to filter the values and this is the best example for higher order function.
+* *Ex:- Source code - filterfun.py*
+* Using lambda function.
+* *Ex:- Source code - lambdfilter.py*
+
+### * **Mapping :-**
+
+* It is a built in function in python which is used to map the values and this is also the best example for hiher order function.
+* *Ex:- Source code - map.py*
+
+### * **Closure :-**
+
+* Closure - In a nested function calling inner function outside the outer function.
+* *Ex:- Source code -
+
+      def outer():
+          print("Inside outer")
+          def inner():
+              print("Inside inner")
+          return inner
+      ref=outer()
+      ref()
+
+### * **Decorators:-**
+
+* Decorators - Accessing code from one function to another function and if we want we can modify it will not affect to the main function/main code.
+* *Ex:- Source code - decorators.py
+
+      def main():
+          print("Inside main function")
+      def outer(ptr):
+          print("Inside outer function")
+          def inner():
+              print("Inside inner function")
+              ptr()
+              print("Leaving inner function")
+      ref=outer(main)
+      ref()
+
+### * **Accessing and modifying the non local variables :-**
+
+* *Ex:- Source code - accessnonlocal.py
+
+## **Generators :-**
+
+* Generators - It is a function which generates the sequence of values  with the help of *yield* keyword.
+* If any function which consists of minimum of one *yield* keyword inside it is called as "Generator".
+
+### * **next() :-**
+
+* It is used to retrieve next item from a generator.
+* This will resume the execution from the last, until it reaches the next one.
+
+### * **yield keyword:-**
+
+* **Yield -**  This will pause the execution of a function by saving its current state.
+  
+### ***NOTE :- When there are no values inside the henerator if we use next function it will throw an error. the error is "stop iteration error".
+
+** Difference between generators and functions.
+
+<table>
+  <tr>
+    <td>Functions</td>
+    <td>Generators</td>
+  </tr>
+  <tr>
+    <td>It returns only single value using 'return keyword'</td>
+    <td>it returns multiple values using 'yield keyword'</td>
+  </tr>
+  <tr>
+    <td>Store entire data in a memory.</td>
+    <td>Generates values lazily in demand.</td>
+  </tr>
+  <tr>
+    <td>Function can be slow for large data</td>
+    <td>Generators are more efficient for large data.</td>
+  </tr>
+</table>
+
+* *Ex :- Source code - generator.py*
+
+      def generator():
+          yield 1
+          yield 2
+          yield 3
+      res=generator()
+      print(res)
+      print(next(res))
+    
     
 
   
