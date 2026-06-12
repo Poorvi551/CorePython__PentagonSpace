@@ -1,0 +1,6 @@
+m=(1,2,3,('A','B','C'),4)
+print(len(m))
+print(m[1])
+print(m[3][1])
+print(m[3][2])
+print(m[4])

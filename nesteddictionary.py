@@ -1,0 +1,10 @@
+student={"name":"Sinchu",
+         "age":"20",
+         "phone":{"mob":200,
+                  "land":700},
+         "addr":{"resi":"Bangalore",
+                 "perm":"Belagavi"}}
+print(student)
+print(student["name"])
+print(student["phone"]["land"])
+print(student["addr"]["perm"])
