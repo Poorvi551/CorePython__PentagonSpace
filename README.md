@@ -554,7 +554,14 @@ To overcome this or to add the values we use - * int(input)
 
 * *Ex :- source code - replacestring.py*
 
-       
+      str="Shaky is scanning"
+      print(str)
+      str1=str.replace("is","was")
+      print(str1)
+      print(str.startswith("Shaky"))   #True
+      print(str.startswith("Rahul"))   #False
+      print(str.endswith("scanning"))  #True
+      print(str.endswith("Shaking"))   #Falsenterning
 
 * Replace() - replaces a new string instead of old string which you want to replace.
     
