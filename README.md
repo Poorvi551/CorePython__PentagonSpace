@@ -845,6 +845,96 @@ B - Built in Scope
       res=generator()
       print(res)
       print(next(res))
+
+# OOPS 
+
+### * ***OOPS - Object Oriennted Programming System***
+
+### * Pillers of python (OOPs) :-
+
+  1. Encapsulation
+  2. Inheritance
+  3. Polymorphism
+  4. Abstraction
+
+## **1. Encapsulation :-**
+
+* *Encapsulation* - Providing controlled access to the private members of the class , in simple we can call it as binding of the data.
+* To provide security we have some access modifiers :-
+* There are 3 types of access modifiers :
+     1. public - self.pages - (without ( _ ) underscore)
+     2. protected - self._pages - (with ( ._ ) single underscore)
+     3. private - self.__pages - (with ( .__ ) double underscore)
+
+
+      class Book:
+           def __init__(self,pages):
+               self.__page=pages            # public self converted to private
+      b1=Book(100)
+      print(b1.__pages)
+
+  * In the above program we have converted the public variable into private variable by applying  __ ( double underscore).
+  * The private variables cannot be accessed directly even by the developer.
+  * To acces private variables we have to use 2 methods they are:
+       1. setter()
+       2. getter()
+  * *Ex :- Source code - encapsulation.py*
+ 
+        class Book:
+            def __init__(self,pages):
+                self.__page=pages            # public self converted to private
+            def setter(self,val):
+                if val>0:
+                    self.__page=val
+            def getter(self):
+                return self.__page
+        b1=Book(100)
+        b1.setter(200)
+        res=b1.getter()
+        print(res)
+
+## * **Normal Encapsulation :-**
+
+* *Ex :- Source code - personnormencapsulation.py*
+
+## * **Property() Encapsulation :-**
+
+* *Ex :- Source code - propertyencap.py*
+  
+
+      class Book:
+            def __init__(self):
+                self.__page=""            # public self converted to private
+            def getter(self):
+                return self.__page
+            def setter(self,pages):
+                self.__page=pages
+            getset=property(getter,setter)
+      b1=Book(100)
+      b1.getset=200
+      res=b1.getset
+      print(res)
+
+## * **@Property() Decorators Encapsulation :-** 
+
+* *Ex :- Source code - propertyencap.py*
+    
+      class Person:
+           def __init__(self):
+               self.__pname=""            # public self converted to private
+           @property
+           def dispName(self):
+               return self.__page
+           @dipName.setter
+           def dispName(self,names):
+               self.__pname=names
+      p1=Person(100)
+      p1.dispName="ABC"
+      res=b1.dispNmae
+      print(res)
+
+
+
     
     
 
