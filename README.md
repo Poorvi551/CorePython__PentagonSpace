@@ -1166,7 +1166,7 @@ B - Built in Scope
   
 ## **4. Abstraction :-**
 
-* it is a process of hiding the implementation and showing only necessary funtionalities to the user is called ***abstraction***                                                                                               f   
+* *Abstraction :-* It is a process of hiding the implementation and showing only necessary funtionalities to the user is called ***abstraction***    
 
 
 
