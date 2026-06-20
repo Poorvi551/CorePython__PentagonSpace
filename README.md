@@ -1033,7 +1033,105 @@ B - Built in Scope
       c1.disp_C()
       c1.disp_B()
       c1.disp_A()
-   
+
+### **3. Hierarchical inheritance :-**
+
+* Single parent multiple child.
+* *Ex:- Source code -*
+
+      class A:
+           def disp_A(self):
+               print("In A")
+      class B(A):
+           def disp_B(self):
+               print("In B")
+      class C(A):
+           def disp_C(self):
+               print("In C")
+      c1=C()
+      b1=B()
+      c1.disp_C()
+      b1.disp_B()
+      c1.disp_A()
+      b1.disp_A()
+
+### **4. Multiple inheritance :-**
+
+* Multiple parent single child.
+* *Ex:- Source code -*
+  
+      class A:
+           def disp_A(self):
+               print("In A")
+      class B:
+           def disp_B(self):
+               print("In B")
+      class C(A,C):
+           def disp_C(self):
+               print("In C")
+      c1=C()
+      c1.disp_C()
+      c1.disp_B()
+      c1.disp_A()
+
+### **5. Hybrid inheritance :-**
+
+* It is a combination of any two or more types of inheritance.
+
+### * C3 Linearization Algorithm[MRO] :-
+
+<img width="1280" height="960" alt="WhatsApp Image 2026-06-20 at 11 30 17 AM" src="https://github.com/user-attachments/assets/810ef3eb-cb6d-49f6-b96a-0430979f5517" />
+
+## * **Method Overriding and Method overloading :-**
+
+#### * **Method Overriding :-**
+
+* **Method Overriding :-** It refers to same methodname and same number of parameters.
+* *Ex:- Source code :- [methodoverloading.py](./methodoverloading.py)
+
+      class A:
+            def disp(self):
+                print("Inside A")
+      class B(A):
+           def disp(self):
+                print("Inside B")
+      class C(B):
+            def disp(self):
+                print("Inside B")
+      c1=C()
+      c1.disp()
+      c1.disp()
+      c1.disp()
+
+#### * **Method Overloading :-**
+
+* **Method Overriding :-** It refers to same methodname but different number of parameters.
+* *Ex:- Source code :- [methodoverloading.py](./methodoverloading.py)
+
+      class A:
+            def disp(self,a,b,c):
+                print(a)
+                print(b)
+                print(c)
+      class B(A):
+           def disp(self,a,b):
+                print(a)
+                print(b)
+      class C(B):
+            def disp(self,a):
+                print(a)
+      c1=C()
+      c1.disp(10,20,30)
+      c1.disp(10,20)
+      c1.disp(10)
+## **3. Polymorphism :-**
+
+* *Polymorphism :-* It refers to poly:many  and morphs:forms.
+* *Ex :- Source code - [polymorphismplane.py](./polymorphism.py)
+
+## **4. Abstraction :-**
+
+
 
    
 
