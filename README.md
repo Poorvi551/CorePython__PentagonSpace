@@ -1080,7 +1080,7 @@ B - Built in Scope
 
 ### * C3 Linearization Algorithm[MRO] :-
 
-<img width="1280" height="960" alt="WhatsApp Image 2026-06-20 at 11 30 17 AM" src="https://github.com/user-attachments/assets/810ef3eb-cb6d-49f6-b96a-0430979f5517" />
+<img width="960" height="1280" alt="WhatsApp Image 2026-06-20 at 9 43 54 PM" src="https://github.com/user-attachments/assets/c1193ca1-2c3e-4e1e-8640-294c07edad45" />
 
 ## * **Method Overriding and Method overloading :-**
 
