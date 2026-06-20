@@ -125,7 +125,7 @@ __________________________________________________________________
         
         #  This program executes successfully because the constructor is initialized.
   ____________________________________________________________________________________________
-  *Source code File - student.py*
+  *Source code File - [student.py](./student.py)*
 
   * Output :-
   ___________________________________________________________________________________________
@@ -143,7 +143,7 @@ __________________________________________________________________
 
 _________________________________________________________________________________________________________
 
-*Similar object creation files - heroobj.py*
+*Similar object creation files - [heroobj.py](./heroobj.py)*
 
 ***NOTE : The complete python code is controlled and coordinated by PVM (Python Virtual Machine)***
 
@@ -162,7 +162,7 @@ ________________________________________________________________________________
 
 **Actual Creation of an object:**
 
-*Source code : heroobj.py*
+*Source code : [heroobj.py](./heroobj.py)*
 
 *How the backend works?!*
 
@@ -172,23 +172,23 @@ ________________________________________________________________________________
 
 ### **Adding, Modifying and Deleting the values outside class:**
 
-*Source code - heroineobj.py*
+*Source code - [heroineobj.py](./heroineobj.py)*
 
  * **Adding** : adding values
   
-   * *syntax* - ex: h1.movies="PK"   ( consider heroineobj.py file )
+   * *syntax* - ex: h1.movies="PK"   ( consider [heroineobj.py](./heroineobj.py) file )
 
  *  **Modifying** : changing existing values
 
-   * *syntax* - ex: h1.age=34      ( consider heroineobj.py file )
+   * *syntax* - ex: h1.age=34      ( consider [heroineobj.py](./heroineobj.py) file )
 
  *  **Deleting** : Removing values
 
-   * *syntax* - ex: del h1.numOfMovies  ( consider heroineobj.py file )
+   * *syntax* - ex: del h1.numOfMovies  ( consider [heroineobj.py](./heroineobj.py) file )
 
  * Printing Address Value of an object :-
 
-   *syntax* - ex: print(h1)      ( consider heroineobj.py file )
+   *syntax* - ex: print(h1)      ( consider [heroineobj.py](./heroineobj.py) file )
 
 ## **Data types and variables:-**
 
@@ -235,11 +235,11 @@ ________________________________________________________________________________
 
 To overcome this or to add the values we use - * int(input)
 
-  Source Code files in repo -  >> intinput.py
+  Source Code files in repo -  >> [intinput.py](./intinput.py)
 
 * Greater than program using input statements and condition statements.
   
-   * Source Code files in repo -  >> intinput.py
+   * Source Code files in repo -  >> [intinput.py](./intinput.py)
 
 ## * **Looping Statements :**
   
@@ -256,7 +256,7 @@ To overcome this or to add the values we use - * int(input)
            for var_name in list_of_elements:
      _______________________________________________________________________
 
-     Ex : source code - forloop.py
+     Ex : source code - [forloop.py](./forloop.py)
 
 ###  *  **Range() :**
 
@@ -274,7 +274,7 @@ To overcome this or to add the values we use - * int(input)
             while condtion:
     __________________________________________________________________________
   
-  Ex : source code - while.py
+  Ex : source code - [while.py](./while.py)
 
 * Various ways of declaring instance variable :-
 
@@ -312,19 +312,19 @@ To overcome this or to add the values we use - * int(input)
 
    1. No parameter No return Value :
 
-        Ex: source code - calcinopnorv.py
+        Ex: source code - [calcinopnorv.py](./calcinopnorv.py)
 
    2. No parameter with return value :
 
-        Ex : source code - calcinopwithrv.py
+        Ex : source code - [calcinopwithrv.py](./calcinopwithrv.py)
         
    3. With parameter no return value :
 
-        Ex : source code - calciwithpnorv.py
+        Ex : source code - [calciwithpnorv.py](./calciwithpnorv.py)
 
   4. With parameter with return value :
 
-        Ex: source code - calciwithpwithrv.py
+        Ex: source code - [calciwithpwithrv.py](./calciwithpwithrv.py)
 
 **2. Static method :**
 
@@ -348,16 +348,16 @@ To overcome this or to add the values we use - * int(input)
            _______________
    __________________________________________________________
 
-  *Ex : source code : carmethod.py*
+  *Ex : source code : [carmethod.py](./carmethod.py)*
 
 * **Method returning multiple values:-**
 
    * If we are not declaring a constructor the PVM will declare one default constructor at the backend.
-   * Ex : source code : methodretnmultival.py
+   * Ex : source code : [methodretnmultival.py](./methodretnmultival.py)
 
 * **Standard way of declaring a class :**
 
-  Ex: Source code - standardwaystudent.py, (Similar ex: Farmer.py)
+  Ex: Source code - [standardwaystudent.py](./standardwaystudent.py), (Similar ex: [Farmer.py](./Farmer.py))
 
 * **Static variable:-**
 
@@ -374,11 +374,11 @@ To overcome this or to add the values we use - * int(input)
                      _______________
                      _______________
 
-         Ex: source code - staticfarmer.py
+         Ex: source code - [staticfarmer.py](./staticfarmer.py)
 
 #### * **Actual Parameter and Formal Parameter.**
 
-   * *Ex Source code : demoparameters.py*
+   * *Ex Source code : [demoparameters.py](./demoparameters.py)*
 
                class Demo:
                    def add(self,a,b):  # a, b here are Formal Parameter
@@ -391,7 +391,7 @@ To overcome this or to add the values we use - * int(input)
 
 #### * **Keywords and arguments :**
 
-  Ex : Source code :- parameters.py
+  Ex : Source code :- [parameters.py](./parameters.py)
 
 #### * **High cohension and Low cohension:-**
 
@@ -433,7 +433,7 @@ To overcome this or to add the values we use - * int(input)
         str="RajaRamMohanRoy"
         print(str.slice[2:6])  // prints str from index 2 to 6-1 =5 index
 
-   *Ex: Source code : slice.py*
+   *Ex: Source code : [slice.py](./slice.py)*
 
    * **Rules for slicing :-**
 
@@ -494,11 +494,11 @@ To overcome this or to add the values we use - * int(input)
  * .lower() - converts the  string to lowercase
  * .upper() - converts the  string to uppercase
  * .swapcase() - converts the string to lowercase or uppercase or mixed case based on the input.
- *  *Ex - Source code - stringcase.py*
+ *  *Ex - Source code - [stringcase.py](./stringcase.py)*
 
 ** ***Finding the substring from the given string:-***
 
- * Ex: source code - substring.py
+ * Ex: source code - [substring.py](./substring.py)
    
        str="if you think you can or you can't, you are right"
        print(str)
@@ -525,7 +525,7 @@ To overcome this or to add the values we use - * int(input)
 * **Packing** - Storing the sequence of elements in a single variable is called packing.
 * **unpacking** - Storing the sequence of elements in the separate variable is called unpacking.
 
-* Ex :- Source code - packunpack.py
+* *Ex :- Source code - [packunpack.py](./packunpack.py)*
 
 ### * **ASCII Values :-**
 
@@ -537,7 +537,7 @@ To overcome this or to add the values we use - * int(input)
 
 ** Check ASCII Values:-
 
-* *Ex :- Source code - ascii.py*
+* *Ex :- Source code - [ascii.py](./ascii.py)*
 
       alpha=input("Enter a alphabet:")
       res1=ord(alpha)            # prints number of alphabet
@@ -551,7 +551,7 @@ To overcome this or to add the values we use - * int(input)
 
 ### * **Replacing a string :-**
 
-* *Ex :- source code - replacestring.py*
+* *Ex :- source code - [replacestring.py](./replacestring.py)*
 
       str="Shaky is scanning"
       print(str)
@@ -566,7 +566,7 @@ To overcome this or to add the values we use - * int(input)
 
 ### * **String Interning:-**
 
-* *Ex :- source code - stringInterning.py*
+* *Ex :- source code - [stringInterning.py](./stringInterning.py)*
 
 * String Interning : It is an internal memory optimization technique in Python. Checks for the same element, if same element present multiple times then assigns the same memory address to that particular element. 
 
@@ -574,7 +574,7 @@ To overcome this or to add the values we use - * int(input)
 
 * Format string - String formatting refers to assign value taken from the user to print anything.
   
-* *Ex: Source code - formatstring*
+* *Ex: Source code - [formatstring](./formatstring)*
 
 ## Functions
 
@@ -625,7 +625,7 @@ To overcome this or to add the values we use - * int(input)
 
  ### **1. No parameter no return value :-**
 
-  * *Ex- Source code - nopnorv.py*
+  * *Ex- Source code - [nopnorv.py](./nopnorv.py)*
 
         def add():
             a=10
@@ -636,7 +636,7 @@ To overcome this or to add the values we use - * int(input)
 
  ### **2. No parameter with return value :-** 
 
- * *Ex- Source code - nopwithrv.py*
+ * *Ex- Source code - [nopwithrv.py](./nopwithrv.py)*
    
        def add():
             a=10
@@ -648,7 +648,7 @@ To overcome this or to add the values we use - * int(input)
    
 ### **3. With parameter no return value :-**
 
-* *Ex- Source code - withpnorv.py*
+* *Ex- Source code - [withpnorv.py](./withpnorv.py)*
 
        def add(a,b):
             c=a+b
@@ -659,7 +659,7 @@ To overcome this or to add the values we use - * int(input)
   
  ### **4. With parameter with return value :-**
 
- * *Ex- Source code - withpwithrv.py*
+ * *Ex- Source code - [withpwithrv.py](./withpwithrv.py)*
 
        def add(a,b):
             c=a+b
@@ -673,21 +673,21 @@ To overcome this or to add the values we use - * int(input)
 
   ### ***NOTE :- The address of the function is stored i the function name.***
 
-  * *Ex- Source code - invokefunctions.py*
+  * *Ex- Source code - [invokefunctions.py](./invokefunctions.py)*
 
   ### * **Global variable :-**
 
-  * * *Ex- Source code - globalvariable.py*
+  * * *Ex- Source code - [globalvariable.py](./globalvariable.py)*
    
   ### * **Accessing global variable with or without using global :-**
 
-  * *Ex- Source code - globalvar.py*
+  * *Ex- Source code - [globalvar.py](./globalvar.py)*
 
 ## * **Nested Function :-**
 
 ### ***NOTE :- In a nested function we have to call inner function inside the outer function outside the inner function.***
 
-* *Ex- Source code - nestedfun.py*
+* *Ex- Source code - [nestedfun.py](./nestedfun.py)*
 
       def outer():
           print("Inside outer")
@@ -701,12 +701,12 @@ To overcome this or to add the values we use - * int(input)
 * The function which accepts another function as parameter is called as higher order function.
 * Other than higher order function all are first class function.
 
-* *Ex :- Source code - highorderfun.py*
+* *Ex :- Source code - [highorderfun.py](./highorderfun.py)*
 
 ### * **Non-Local variables:-**
 
 * In a nested function the variable present in the most inner function is called as local variable remaining all the variable will act as non local variable.
-* *Ex:- Source code - nonlocalvar.py*
+* *Ex:- Source code - [nonlocalvar.py](./nonlocalvar.py)*
 
 ### * **LEGB Rule:-**
 
@@ -722,14 +722,14 @@ B - Built in Scope
 
        lambda arguments : expresssion
   
-* *Ex:- Source code - lambda.py*
+* *Ex:- Source code - [lambda.py](./lambda.py)*
 
 ### * Modules :-*
 
 * Module is a pyton file where we can import code from one module to another module and we can use it.
-* *Ex :- Source code(folder) - module ,modul2
+* *Ex :- Source code(folder) - [module](./module) ,[modul2](./modul2)
 
-* Importing both p1.py, p2.py file in new1.py file.
+* Importing both [p1.py](./p1.py), [p2.py](./p2.py) file in [new1.py](./new1.py) file.
 
 **  ***Collect 5 integer values from the user and store it in a list or arr.***
 
@@ -757,14 +757,14 @@ B - Built in Scope
 ### * **Filtering :-**
 
 * It is a built in function in python which is used to filter the values and this is the best example for higher order function.
-* *Ex:- Source code - filterfun.py*
+* *Ex:- Source code - [filterfun.py](./filterfun.py)*
 * Using lambda function.
-* *Ex:- Source code - lambdfilter.py*
+* *Ex:- Source code - [lambdfilter.py](./lambdfilter.py)*
 
 ### * **Mapping :-**
 
 * It is a built in function in python which is used to map the values and this is also the best example for hiher order function.
-* *Ex:- Source code - map.py*
+* *Ex:- Source code - [map.py](./map.py)*
 
 ### * **Closure :-**
 
@@ -782,7 +782,7 @@ B - Built in Scope
 ### * **Decorators:-**
 
 * Decorators - Accessing code from one function to another function and if we want we can modify it will not affect to the main function/main code.
-* *Ex:- Source code - decorators.py
+* *Ex:- Source code - [decorators.py](./decorators.py)
 
       def main():
           print("Inside main function")
@@ -797,7 +797,7 @@ B - Built in Scope
 
 ### * **Accessing and modifying the non local variables :-**
 
-* *Ex:- Source code - accessnonlocal.py
+* *Ex:- Source code - [accessnonlocal.py](./accessnonlocal.py)*
 
 ## **Generators :-**
 
@@ -836,7 +836,7 @@ B - Built in Scope
   </tr>
 </table>
 
-* *Ex :- Source code - generator.py*
+* *Ex :- Source code - [generator.py](./generator.py)*
 
       def generator():
           yield 1
@@ -878,7 +878,7 @@ B - Built in Scope
   * To acces private variables we have to use 2 methods they are:
        1. setter()
        2. getter()
-  * *Ex :- Source code - encapsulation.py*
+  * *Ex :- Source code - [encapsulation.py](./encapsulation.py)*
  
         class Book:
             def __init__(self,pages):
@@ -895,11 +895,11 @@ B - Built in Scope
 
 ## * **Normal Encapsulation :-**
 
-* *Ex :- Source code - personnormencapsulation.py*
+* *Ex :- Source code - [personnormencapsulation.py](./personnormencapsulation.py)*
 
 ## * **Property() Encapsulation :-**
 
-* *Ex :- Source code - getsetencap.py*
+* *Ex :- Source code - [getsetencap.py](./getsetencap.py)*
   
 
       class Book:
@@ -920,7 +920,7 @@ B - Built in Scope
 * ***NOTE :- 1. Only in a normal encapsulation we have to call both setter and getter method.***
           ***2. In remaining two types of encapsulation we don't need to cal just we have to assign values.***
 
-* *Ex :- Source code - propertyencap.py*
+* *Ex :- Source code - [propertyencap.py](./propertyencap.py)*
     
       class Person:
            def __init__(self):
