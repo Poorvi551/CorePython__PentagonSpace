@@ -899,7 +899,7 @@ B - Built in Scope
 
 ## * **Property() Encapsulation :-**
 
-* *Ex :- Source code - propertyencap.py*
+* *Ex :- Source code - getsetencap.py*
   
 
       class Book:
@@ -917,6 +917,9 @@ B - Built in Scope
 
 ## * **@Property() Decorators Encapsulation :-** 
 
+* ***NOTE :- 1. Only in a normal encapsulation we have to call both setter and getter method.***
+          ***2. In remaining two types of encapsulation we don't need to cal just we have to assign values.***
+
 * *Ex :- Source code - propertyencap.py*
     
       class Person:
@@ -932,6 +935,47 @@ B - Built in Scope
       p1.dispName="ABC"
       res=b1.dispNmae
       print(res)
+  
+### * ***Converting public method into private method :-***
+
+    class Car:
+         def __init__(self):
+             self.brand=""
+         def __move(self):
+             print("Car is moving")
+    c1=Car()
+    c1.__move()                       # Attribute Error
+
+### * ***NOTE:- To access private method we have to use one helper method and this method should be in public mode.***
+
+    class Car:
+         def __init__(self):
+             self.brand=""
+         def __move(self):
+             print("Car is moving")
+         def helper(self):
+             self.__move()
+    c1=Car()
+    c1.helper()
+
+## **2. Inheritance :-**
+
+* Inheritance - It is a mechanism which allows us to inherit the properties and behaviours from one class to another class.(Parent - child)
+* Derived class - It is also called child class.
+
+* ***NOTE :- In Inheritance object is created only for the class which acts as a child class.***
+
+### * **Super() :-**
+
+ * It is used to connect the parent class constructor to the child class constructor without using classname.
+ * *Ex:- Source code - [supermethod.py](./supermethod.py)*
+
+ * 
+
+
+
+
+
 
 
 
