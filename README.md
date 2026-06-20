@@ -970,6 +970,71 @@ B - Built in Scope
  * It is used to connect the parent class constructor to the child class constructor without using classname.
  * *Ex:- Source code - [supermethod.py](./supermethod.py)*
 
+       class A:
+           def __init__(self):
+               self.a=10
+       class B(A):
+           def __init__(self):
+               super().__init__()
+               self.b=20
+       class C(B):
+           def __init__(self):
+               super().__init__()
+               self.c=30
+       c1=C()
+       print(c1.c)
+       print(c1.b)
+       print(c1.a)
+
+### * ***Implementation of Inheritance :-***
+
+**UML Diagram :- (Unified Modelling Language)**
+
+<img width="1280" height="960" alt="WhatsApp Image 2026-06-20 at 11 30 17 AM" src="https://github.com/user-attachments/assets/c7be8bd4-ee62-470a-94a4-ac84d60d5a63" />
+
+## **Types of Inheritance :-**
+
+1. Single level inheritance
+2. Multi level inheritance
+3. Hierarchical inheritance
+4. Multiple inheritance
+5. Hybrid inheritance
+
+### **1. Single level inheritance :-**
+
+* Single parent single child
+* *Ex :- Source code - [](./)*
+
+      class A:
+           def disp_A(self):
+               print("In A")
+      class B(A):
+           def disp_B(self):
+               print("In B")
+      b1=B()
+      b1.disp_B()
+      b1.disp_A()
+
+### **2. Multi level inheritance :-**
+
+* A new child class is derived from already existing derived class is called Multi level inheritance.
+* *Ex:- Source code -*
+
+      class A:
+           def disp_A(self):
+               print("In A")
+      class B(A):
+           def disp_B(self):
+               print("In B")
+      class C(B):
+           def disp_C(self):
+               print("In C")
+      c1=C()
+      c1.disp_C()
+      c1.disp_B()
+      c1.disp_A()
+   
+
    
 
 
