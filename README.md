@@ -1124,16 +1124,49 @@ B - Built in Scope
       c1.disp(10,20,30)
       c1.disp(10,20)
       c1.disp(10)
+
+* **Invoking the parent class methods during an overriding :-**
+
+* We have to call the parent class methods inside the child class method using the class name.
+* *Ex :- Source code - [invokeparentcls.py](./invokeparentcls)
+
+  
 ## **3. Polymorphism :-**
 
 * *Polymorphism :-* It refers to poly:many  and morphs:forms.
-* *Ex :- Source code - [polymorphismplane.py](./polymorphism.py)
+* *Definition :-* If any object is performing more than one task is called as polymorphism.
+* ***NOTE :- In polymorphism the method name should be same in all the classes.***
+* *Overriding and overloading comes in polymorphism.
+* *Ex :- Source code - [polymorphismplane.py](./polymorphism.py)*
 
+### * **Has a Relationship :-**
+
+* During inheritance we have to check whether the connection's are established in "is a relationship" if not we have to achieve "has a relationship".
+* We use deligation model to achieve "has a relationship"
+
+### * **Deligation model :-** 
+
+* It is aprocess to create a object of one class inside another class.
+* *Ex - Source code - [deligation.py](./deligation.py)*
+
+### * **Types of "has a relationship" :-**
+
+  1. Composition (Compound Object)
+  2. Aggregation (Aggregate Object)
+
+### **1. Composition :-**
+
+  * Composition - If object cannot survive without main object is called compound object.
+  * *Ex - Source code - [Compositionexmpl.py](./Compositionexmpl.py)
+
+### **2. Aggregation :-**
+
+* Aggregation - If object survives without main object it is called aggregate object.
+* *Ex - Source code - [Aggregationexmpl](./Aggregationexmpl)*
+  
 ## **4. Abstraction :-**
 
-
-
-   
+* it is a process of hiding the implementation and showing only necessary funtionalities to the user is called ***abstraction***                                                                                               f   
 
 
 
