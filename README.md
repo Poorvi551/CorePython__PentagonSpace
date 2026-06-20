@@ -970,7 +970,7 @@ B - Built in Scope
  * It is used to connect the parent class constructor to the child class constructor without using classname.
  * *Ex:- Source code - [supermethod.py](./supermethod.py)*
 
- * 
+   
 
 
 
